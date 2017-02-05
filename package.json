@@ -1,0 +1,18 @@
+{
+  "name": "imagethumbnails",
+  "version": "0.0.1",
+  "description": "Upload images to a node server, save the images and generates a matching thumbnail",
+  "main": "_public/js/index.js",
+  "scripts": {
+    "start": "gulp && node _public/js/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jago Gibbons",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-fileupload": "0.0.6",
+    "image-size": "^0.5.1",
+    "sharp": "^0.17.1"
+  }
+}

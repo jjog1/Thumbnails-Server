@@ -1,0 +1,1 @@
+Contains all the html files. May be converted to Pug down the line.
